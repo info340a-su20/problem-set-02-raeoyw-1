@@ -6,19 +6,21 @@
 
     <!-- normalize.css for cross-browser stuff -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#">Informatics</a></li>
+            <li><a href="#"><span class="logo">&nbsp;</span>Informatics</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#admissions">Admissions</a></li>
             <li><a href="#faculty">Faculty</a></li>
         </ul>
-        <div class="searchBox" role="search">
+        <div class="searchBox" role="search" aria-hidden="true">
             <input type="text" placeholder="Search...">
-            <button>Search</button>
+            <button><i class="fa" aria-label="search"></i></button>
         </div>
     </nav>
 
